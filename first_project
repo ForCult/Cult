@@ -1,0 +1,14 @@
+print('Prices:')
+print('Bubblegum: $202')
+print('Toffee: $118')
+print('Ice cream: $2250')
+print('Milk chocolate: $1680')
+print('Doughnut: $1075')
+print('Pancake: $80')
+print('Earned income: 5405')
+print()
+staff_expenses = int(input("Staff expenses: "))
+other_expenses = int(input("Other expenses: "))
+total_earnings = 5405
+net_income = total_earnings - other_expenses - staff_expenses
+print("Net income:", net_income)
